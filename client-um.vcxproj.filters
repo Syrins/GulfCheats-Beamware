@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="includes.hpp" />
+    <ClInclude Include="utils\globals.hpp" />
+    <ClInclude Include="utils\memory\memory.hpp" />
+    <ClInclude Include="utils\memory\driver.hpp" />
+    <ClInclude Include="drawing\renderer.hpp" />
+    <ClInclude Include="drawing\imgui\stb_image.h" />
+    <ClInclude Include="drawing\menu\fonts.hpp" />
+    <ClInclude Include="utils\utils.hpp" />
+    <ClInclude Include="features\visuals.hpp" />
+    <ClInclude Include="classes\base_networkable.hpp" />
+    <ClInclude Include="classes\game_object_manager.hpp" />
+    <ClInclude Include="classes\ents\player.hpp" />
+    <ClInclude Include="classes\ents\animal.hpp" />
+    <ClInclude Include="classes\ents\dropped_item.hpp" />
+    <ClInclude Include="classes\ents\stash.hpp" />
+    <ClInclude Include="classes\ents\ore.hpp" />
+    <ClInclude Include="classes\ents\basenpc.hpp" />
+    <ClInclude Include="classes\ents\entity.hpp" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="drawing\menu\controls\c_button.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\menu\controls\c_checkbox.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\menu\controls\c_dropdown.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\menu\controls\c_keybind.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\menu\controls\c_multidropdown.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\menu\controls\c_sliderfloat.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\menu\controls\c_sliderint.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\menu\controls\c_spacer.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\menu\controls\c_textfield.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\menu\controls\c_textseperator.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="features\aimbot.hpp">
+      <Filter>hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\memory\offsets.hpp">
+      <Filter>hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="features\features.hpp">
+      <Filter>hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\menu\controls.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="skCrypt.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="drawing\menu\menu.cpp" />
+    <ClCompile Include="drawing\renderer.cpp" />
+    <ClCompile Include="utils\utils.cpp" />
+    <ClCompile Include="classes\ents\player.cpp" />
+    <ClCompile Include="drawing\menu\controls\c_groupbox.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="features\packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="menu">
+      <UniqueIdentifier>{5309cce8-9283-4920-aadd-dbcaa363a892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{62da4392-8720-4560-aceb-9bb028e92daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hacks">
+      <UniqueIdentifier>{731ec418-b925-4308-ac1f-1b9115b2eebd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

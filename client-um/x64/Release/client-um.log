@@ -1,0 +1,1794 @@
+﻿  player.cpp
+C:\Users\pc\Desktop\client-um\utils\utils.hpp(322,48): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('classes/ents/player.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(102,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('classes/ents/player.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(112,14): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('classes/ents/player.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\dropped_item.hpp(49,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('classes/ents/player.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\ore.hpp(58,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('classes/ents/player.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805: '==' : işlemde güvenli olmayan 'type' türü ve 'bool' türü karışımı
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         with
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         [
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:             type=int
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         ]
+  ('classes/ents/player.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(43,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('classes/ents/player.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\animal.hpp(46,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('classes/ents/player.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\basenpc.hpp(35,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('classes/ents/player.cpp' kaynak dosyası derleniyor)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18): warning C4244: '=': 'wchar_t' - 'char' dönüşümü; veri kaybı olabilir
+  ('classes/ents/player.cpp' kaynak dosyası derleniyor)
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18):
+  şablon örneği oluşturma bağlamı (önce en eski olan)
+  	C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(402,21):
+  	derlenen şablon işlevi 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  		C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(402,3):
+  		'Player::GetASCIIName' içinde ilk 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' başvurusuna bakın
+  	C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2600,17):
+  	derlenen şablon işlevi 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2756,18):
+  	derlenen şablon işlevi '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  imgui.cpp
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui.cpp(6602,141): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui.cpp(6603,147): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui.cpp(7229,158): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui.cpp(7230,158): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui.cpp(7231,157): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui.cpp(8484,156): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui.cpp(8486,156): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui.cpp(9736,156): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui.cpp(9737,137): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui.cpp(11007,136): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui_widgets.cpp(1203,59): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui_widgets.cpp(3475,97): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+  c_groupbox.cpp
+C:\Users\pc\Desktop\client-um\utils\utils.hpp(322,48): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,76): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,64): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,46): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,35): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(64,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(65,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(66,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(67,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(69,37): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,76): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,64): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,46): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,35): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(129,26): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(129,17): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,76): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,64): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,46): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,35): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(185,77): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(102,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(112,14): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\dropped_item.hpp(49,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\ore.hpp(58,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805: '==' : işlemde güvenli olmayan 'type' türü ve 'bool' türü karışımı
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         with
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         [
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:             type=int
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         ]
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(43,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\animal.hpp(46,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\basenpc.hpp(35,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(204,22): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(210,22): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(223,35): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(226,85): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(226,71): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(226,49): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(226,35): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(227,89): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(227,75): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(227,53): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(227,38): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(229,104): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(229,87): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(229,60): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(229,44): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(230,36): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(233,117): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(233,84): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(233,56): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(233,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(234,130): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(234,97): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(234,56): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(234,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(237,114): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(237,97): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(237,53): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(237,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(238,155): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(238,118): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(238,73): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(238,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(262,48): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(304,20): warning C4244: 'başlatılıyor': 'unsigned __int64' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(306,60): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(306,44): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(306,36): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(307,53): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(307,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(307,29): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(308,64): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(308,44): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(308,32): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(311,16): warning C4244: 'başlatılıyor': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(343,20): warning C4244: 'başlatılıyor': 'unsigned __int64' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(348,14): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(347,13): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(36,71): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(36,61): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(36,42): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(36,34): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(38,64): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(38,54): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(38,35): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(38,27): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(45,9): warning C4267: 'başlatılıyor': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(81,46): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(81,27): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(82,257): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(82,237): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(82,217): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(82,46): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(82,27): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(129,13): warning C4267: 'başlatılıyor': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(138,29): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(137,29): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(175,16): warning C4267: 'başlatılıyor': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(265,15): warning C4244: 'başlatılıyor': 'float' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(280,50): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp(280,28): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18): warning C4244: '=': 'wchar_t' - 'char' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/controls/c_groupbox.cpp' kaynak dosyası derleniyor)
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18):
+  şablon örneği oluşturma bağlamı (önce en eski olan)
+  	C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(402,21):
+  	derlenen şablon işlevi 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  		C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(402,3):
+  		'Player::GetASCIIName' içinde ilk 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' başvurusuna bakın
+  	C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2600,17):
+  	derlenen şablon işlevi 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2756,18):
+  	derlenen şablon işlevi '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  menu.cpp
+C:\Users\pc\Desktop\client-um\utils\utils.hpp(322,48): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,76): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,64): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,46): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,35): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(64,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(65,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(66,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(67,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(69,37): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,76): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,64): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,46): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,35): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(129,26): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(129,17): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,76): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,64): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,46): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,35): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(185,77): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(102,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(112,14): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\dropped_item.hpp(49,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\ore.hpp(58,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805: '==' : işlemde güvenli olmayan 'type' türü ve 'bool' türü karışımı
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         with
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         [
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:             type=int
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         ]
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(43,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\animal.hpp(46,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\basenpc.hpp(35,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(204,22): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(210,22): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(223,35): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(226,85): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(226,71): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(226,49): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(226,35): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(227,89): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(227,75): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(227,53): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(227,38): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(229,104): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(229,87): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(229,60): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(229,44): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(230,36): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(233,117): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(233,84): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(233,56): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(233,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(234,130): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(234,97): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(234,56): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(234,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(237,114): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(237,97): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(237,53): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(237,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(238,155): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(238,118): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(238,73): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(238,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(262,48): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(304,20): warning C4244: 'başlatılıyor': 'unsigned __int64' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(306,60): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(306,44): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(306,36): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(307,53): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(307,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(307,29): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(308,64): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(308,44): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(308,32): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(311,16): warning C4244: 'başlatılıyor': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(343,20): warning C4244: 'başlatılıyor': 'unsigned __int64' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(348,14): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(347,13): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_checkbox.hpp(12,43): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_checkbox.hpp(12,35): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_checkbox.hpp(19,44): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_checkbox.hpp(19,36): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_checkbox.hpp(24,44): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_checkbox.hpp(24,36): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_checkbox.hpp(27,36): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_checkbox.hpp(27,28): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_checkbox.hpp(30,31): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(16,36): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(16,28): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(25,64): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(25,48): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(25,38): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(28,64): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(28,48): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(28,38): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(33,47): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(33,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(35,56): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(35,40): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(35,30): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(41,72): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(53,21): warning C4244: '=': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(56,39): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(59,18): warning C4244: '=': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(84,9): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(85,9): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(16,36): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(16,28): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(25,64): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(25,48): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(25,38): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(28,64): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(28,48): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(28,38): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(33,47): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(33,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(34,56): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(34,40): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(34,30): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(43,72): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(55,21): warning C4244: '=': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderfloat.hpp(58,39): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(6,1): warning C4005: 'gg': makro yeniden tanımlama
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_sliderint.hpp(7,1):
+  önceki 'gg' tanımına bakın
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(24,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(24,29): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(27,66): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(27,48): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(27,38): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(30,66): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(30,48): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(30,38): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(32,58): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(32,40): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(32,30): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(39,98): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(39,69): warning C4244: 'bağımsız değişken': 'T' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(39,69): warning C4244:         with
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(39,69): warning C4244:         [
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(39,69): warning C4244:             T=int
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(39,69): warning C4244:         ]
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(39,40): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(39,28): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(50,33): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(59,80): warning C4244: 'bağımsız değişken': 'unsigned __int64' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(59,63): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(59,47): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(59,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(67,78): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(67,52): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(67,39): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(72,33): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(76,33): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(80,73): warning C4244: 'bağımsız değişken': 'unsigned __int64' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(80,56): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(80,40): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(80,30): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_dropdown.hpp(105,76): warning C4267: 'bağımsız değişken': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_keybind.hpp(195,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_keybind.hpp(195,29): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_keybind.hpp(201,66): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_keybind.hpp(201,48): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_keybind.hpp(201,38): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_keybind.hpp(204,66): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_keybind.hpp(204,48): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_keybind.hpp(204,38): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_keybind.hpp(206,58): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_keybind.hpp(206,40): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_keybind.hpp(206,30): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_keybind.hpp(215,39): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(36,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(36,29): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(38,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(38,29): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(44,66): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(44,48): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(44,38): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(47,66): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(47,48): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(47,38): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(49,58): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(49,40): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(49,30): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(56,98): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(56,69): warning C4244: 'bağımsız değişken': 'T' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(56,69): warning C4244:         with
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(56,69): warning C4244:         [
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(56,69): warning C4244:             T=int
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(56,69): warning C4244:         ]
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(56,40): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(56,28): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(87,33): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(96,80): warning C4244: 'bağımsız değişken': 'unsigned __int64' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(96,63): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(96,47): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(96,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(104,78): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(104,52): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(104,39): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(110,33): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(113,33): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(117,73): warning C4244: 'bağımsız değişken': 'unsigned __int64' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(117,56): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(117,40): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(117,30): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_multidropdown.hpp(138,76): warning C4267: 'bağımsız değişken': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_button.hpp(26,59): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_button.hpp(26,43): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_button.hpp(26,35): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_button.hpp(32,60): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_button.hpp(32,44): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_button.hpp(32,36): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_button.hpp(35,52): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_button.hpp(35,36): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_button.hpp(35,28): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_button.hpp(38,31): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(59,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(59,29): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(65,66): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(65,48): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(65,38): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(68,66): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(68,48): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(68,38): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(70,58): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(70,40): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(70,30): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(75,34): warning C4244: '=': 'ULONGLONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(83,49): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(83,34): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(85,49): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textfield.hpp(85,34): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textseperator.hpp(19,44): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textseperator.hpp(19,32): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textseperator.hpp(20,78): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textseperator.hpp(20,61): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textseperator.hpp(20,40): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textseperator.hpp(20,29): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textseperator.hpp(23,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_textseperator.hpp(23,29): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(259,81): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(259,50): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(273,45): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(273,40): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(273,29): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(273,26): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(274,57): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(274,50): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(274,31): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(274,26): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(275,53): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(275,46): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(275,33): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(275,28): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(276,47): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(276,42): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(276,29): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(276,26): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(291,45): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(291,40): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(291,29): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(291,26): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(292,57): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(292,50): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(292,31): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(292,26): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(293,53): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(293,46): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(293,33): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(293,28): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(294,47): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(294,42): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(294,29): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(294,26): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(297,84): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(297,72): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(297,52): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(297,40): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(315,111): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(315,92): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(315,65): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(315,46): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(317,103): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(317,86): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(317,61): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(317,44): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(326,16): warning C4267: 'başlatılıyor': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(366,72): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(366,59): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(366,46): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp(375,14): warning C4267: 'başlatılıyor': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18): warning C4244: '=': 'wchar_t' - 'char' dönüşümü; veri kaybı olabilir
+  ('drawing/menu/menu.cpp' kaynak dosyası derleniyor)
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18):
+  şablon örneği oluşturma bağlamı (önce en eski olan)
+  	C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(402,21):
+  	derlenen şablon işlevi 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  		C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(402,3):
+  		'Player::GetASCIIName' içinde ilk 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' başvurusuna bakın
+  	C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2600,17):
+  	derlenen şablon işlevi 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2756,18):
+  	derlenen şablon işlevi '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  renderer.cpp
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,76): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,64): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,46): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,35): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(64,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(65,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(66,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(67,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(69,37): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,76): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,64): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,46): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,35): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(129,26): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(129,17): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,76): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,64): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,46): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,35): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(185,77): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\utils\utils.hpp(322,48): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(102,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(112,14): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\dropped_item.hpp(49,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\ore.hpp(58,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805: '==' : işlemde güvenli olmayan 'type' türü ve 'bool' türü karışımı
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         with
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         [
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:             type=int
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         ]
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(43,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\animal.hpp(46,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\basenpc.hpp(35,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(204,22): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(210,22): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(223,35): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(226,85): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(226,71): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(226,49): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(226,35): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(227,89): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(227,75): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(227,53): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(227,38): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(229,104): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(229,87): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(229,60): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(229,44): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(230,36): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(233,117): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(233,84): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(233,56): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(233,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(234,130): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(234,97): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(234,56): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(234,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(237,114): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(237,97): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(237,53): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(237,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(238,155): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(238,118): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(238,73): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(238,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(262,48): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(304,20): warning C4244: 'başlatılıyor': 'unsigned __int64' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(306,60): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(306,44): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(306,36): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(307,53): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(307,37): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(307,29): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(308,64): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(308,44): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(308,32): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(311,16): warning C4244: 'başlatılıyor': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(343,20): warning C4244: 'başlatılıyor': 'unsigned __int64' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(348,14): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\menu\controls.hpp(347,13): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(84,14): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(316,106): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(316,55): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(425,65): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(462,23): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(465,28): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(488,21): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(14,29): warning C4305: 'başlatılıyor': 'double' iken 'float' olarak kesildi
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(17,14): warning C4244: 'başlatılıyor': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(19,13): warning C4244: '=': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(20,18): warning C4244: '=': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(30,15): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(31,15): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(32,15): warning C4305: 'başlatılıyor': 'double' iken 'float' olarak kesildi
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(114,21): warning C4244: 'başlatılıyor': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(117,20): warning C4244: 'başlatılıyor': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(120,59): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(135,290): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(170,21): warning C4244: 'başlatılıyor': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(182,139): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(182,116): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(182,110): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(182,104): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(185,30): warning C4244: '+=': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(201,138): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(201,115): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(201,109): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(201,103): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(204,30): warning C4244: '+=': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(210,553): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(210,267): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(210,48): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(210,31): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(222,44): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(229,50): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(273,82): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(273,51): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(296,16): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(306,157): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(306,119): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\visuals.hpp(306,85): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.cpp(29,46): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\renderer.cpp(30,46): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\renderer.cpp(37,49): warning C4244: 'bağımsız değişken': 'float' - 'BYTE' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\renderer.cpp(64,16): warning C4244: 'başlatılıyor': 'LONG_PTR' - 'long' dönüşümü; veri kaybı olabilir
+C:\Users\pc\Desktop\client-um\drawing\renderer.cpp(129,37): warning C4244: '=': 'LONG_PTR' - 'long' dönüşümü; veri kaybı olabilir
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18): warning C4244: '=': 'wchar_t' - 'char' dönüşümü; veri kaybı olabilir
+  ('drawing/renderer.cpp' kaynak dosyası derleniyor)
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18):
+  şablon örneği oluşturma bağlamı (önce en eski olan)
+  	C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(402,21):
+  	derlenen şablon işlevi 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  		C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(402,3):
+  		'Player::GetASCIIName' içinde ilk 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' başvurusuna bakın
+  	C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2600,17):
+  	derlenen şablon işlevi 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2756,18):
+  	derlenen şablon işlevi '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  main.cpp
+C:\Users\pc\Desktop\client-um\utils\utils.hpp(322,48): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(102,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(112,14): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\dropped_item.hpp(49,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\ore.hpp(58,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805: '==' : işlemde güvenli olmayan 'type' türü ve 'bool' türü karışımı
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         with
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         [
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:             type=int
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         ]
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(43,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\animal.hpp(46,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\basenpc.hpp(35,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,76): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,64): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,46): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(85,35): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(64,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(65,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(66,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(67,38): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(69,37): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,76): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,64): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,46): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(109,35): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(129,26): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(129,17): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,76): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,64): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,46): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(167,35): warning C4244: 'bağımsız değişken': 'LONG' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\drawing\renderer.hpp(185,77): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\base_networkable.hpp(207,29): warning C4267: 'return': 'size_t' - 'int32_t' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(84,14): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(316,106): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(316,55): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(425,65): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(462,23): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(465,28): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(488,21): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18): warning C4244: '=': 'wchar_t' - 'char' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18):
+  şablon örneği oluşturma bağlamı (önce en eski olan)
+  	C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(402,21):
+  	derlenen şablon işlevi 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  		C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(402,3):
+  		'Player::GetASCIIName' içinde ilk 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' başvurusuna bakın
+  	C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2600,17):
+  	derlenen şablon işlevi 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2756,18):
+  	derlenen şablon işlevi '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  utils.cpp
+C:\Users\pc\Desktop\client-um\utils\utils.hpp(322,48): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(102,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(112,14): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\dropped_item.hpp(49,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\ore.hpp(58,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805: '==' : işlemde güvenli olmayan 'type' türü ve 'bool' türü karışımı
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         with
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         [
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:             type=int
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(28,62): warning C4805:         ]
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\stash.hpp(43,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\animal.hpp(46,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\classes\ents\basenpc.hpp(35,33): warning C4244: 'return': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(84,14): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(316,106): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(316,55): warning C4244: 'bağımsız değişken': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(425,65): warning C4244: 'bağımsız değişken': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(462,23): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(465,28): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(488,21): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\pc\Desktop\client-um\utils\utils.cpp(163,13): warning C4244: 'return': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18): warning C4244: '=': 'wchar_t' - 'char' dönüşümü; veri kaybı olabilir
+  ('utils/utils.cpp' kaynak dosyası derleniyor)
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18):
+  şablon örneği oluşturma bağlamı (önce en eski olan)
+  	C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(402,21):
+  	derlenen şablon işlevi 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  		C:\Users\pc\Desktop\client-um\classes\ents\player.hpp(402,3):
+  		'Player::GetASCIIName' içinde ilk 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' başvurusuna bakın
+  	C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2600,17):
+  	derlenen şablon işlevi 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2756,18):
+  	derlenen şablon işlevi '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  Kod Üretiliyor...
+C:\Users\pc\Desktop\client-um\main.cpp(174,1): warning C4715: 'WinMain': tüm denetim yolları değer döndürmez
+C:\Users\pc\Desktop\client-um\features\aimbot.hpp(87,1): warning C4715: 'Aimbot::distance_cursor': tüm denetim yolları değer döndürmez
+C:\Users\pc\Desktop\client-um\drawing\renderer.cpp(157,1): warning C4715: 'Renderer::Initialize': tüm denetim yolları değer döndürmez
+  LINK : /LTCG belirtildi ancak kod üretme gerekli değil; bağlayıcı performansını artırmak için /LTCG'yi bağlantı komut satırından kaldırın
+  client-um.vcxproj -> C:\Users\pc\Desktop\client-um\x64\Release\Rust.exe

@@ -1,0 +1,12 @@
+C:\Users\pc\Desktop\client-um\classes\ents\player.cpp;C:\Users\pc\Desktop\client-um\client-um\x64\Release\player.obj
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui.cpp;C:\Users\pc\Desktop\client-um\client-um\x64\Release\imgui.obj
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui_demo.cpp;C:\Users\pc\Desktop\client-um\client-um\x64\Release\imgui_demo.obj
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui_draw.cpp;C:\Users\pc\Desktop\client-um\client-um\x64\Release\imgui_draw.obj
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui_impl_dx11.cpp;C:\Users\pc\Desktop\client-um\client-um\x64\Release\imgui_impl_dx11.obj
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui_impl_win32.cpp;C:\Users\pc\Desktop\client-um\client-um\x64\Release\imgui_impl_win32.obj
+C:\Users\pc\Desktop\client-um\drawing\imgui\imgui_widgets.cpp;C:\Users\pc\Desktop\client-um\client-um\x64\Release\imgui_widgets.obj
+C:\Users\pc\Desktop\client-um\drawing\menu\controls\c_groupbox.cpp;C:\Users\pc\Desktop\client-um\client-um\x64\Release\c_groupbox.obj
+C:\Users\pc\Desktop\client-um\drawing\menu\menu.cpp;C:\Users\pc\Desktop\client-um\client-um\x64\Release\menu.obj
+C:\Users\pc\Desktop\client-um\drawing\renderer.cpp;C:\Users\pc\Desktop\client-um\client-um\x64\Release\renderer.obj
+C:\Users\pc\Desktop\client-um\main.cpp;C:\Users\pc\Desktop\client-um\client-um\x64\Release\main.obj
+C:\Users\pc\Desktop\client-um\utils\utils.cpp;C:\Users\pc\Desktop\client-um\client-um\x64\Release\utils.obj
